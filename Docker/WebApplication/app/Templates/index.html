@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classifier</title>
+</head>
+<body>
+    <h1>Image Classifier</h1>
+    <form id="uploadForm" enctype="multipart/form-data" action="/predict" method="POST">
+        <input type="file" id="imageUpload" name="image" accept="image/*" required>
+        <img id="imagePreview" src="#" alt="Your image will appear here" style="display: none;">
+        <button type="submit">Start Processing</button>
+    </form>
+</body>
+</html>
